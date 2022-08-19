@@ -6,7 +6,7 @@ The application is totally online and anyone can access to it. The app is curren
 Developed by WebHire.
 
 All you need is to go to website below:
-> [Main App Page](http://therapymed.webhire.uz) |
+> [therapymed.webhire.uz](http://therapymed.webhire.uz) |
 
 ## Additional Notes
 
