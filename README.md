@@ -1,7 +1,9 @@
 # WebHire
 ## Therapy Med Web Application
 
-The application is totally online and anyone can access to it. The app is currently under the development. The app based on Laravel framework and written on PHP language. 
+The application is totally online and anyone can access to it. The app is currently under the development. The app based on Laravel framework and written on PHP language.
+
+The actual app is in webapp directory.
 
 Developed by WebHire.
 
