@@ -10,7 +10,7 @@ The actual app is in webapp directory.
 - Major interface changes were made
 
 - Created new welcome page based on Bootstrap
-- Improved loading time up to 15 ms
+- Improved loading time up to 200 ms
 
 ## Backgroud development info
 
