@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="90d4af38-4eaa-4914-afc3-ba681a08f8f6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/config/cache.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/config/logging.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/config/session.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

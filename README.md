@@ -5,20 +5,23 @@ The application is totally online and anyone can access to it. The app is curren
 
 The actual app is in webapp directory.
 
-## What's new in version-0.0.1
+## What's new in version-0.1.0
+- The Aplha version was published
 
 - Major interface changes were made
-
-- Created new welcome page based on Bootstrap
-- Improved loading time up to 200 ms
+- Created new pages for selecting gender, body parts, issues and actual quiz
+- Finished Man's Head and Eyes body parts
+- Uzbek Language was selected as a main app language
 
 ## Backgroud development info
 
-- Designed block-schema of the application
+- MySQL DataBase was fully inserted with necessary data
 
-- Designed algorithm of the DB
-- MySQL was chosen as DataBase 
-- Started the development of DB
+- Bussiness Logis was written only for man's head and eyes issues
+-  For other incompleted parts was created another page
+- All pages were based on Bootstarp 4 and 5 versions
+
+
 
 ## Usage
 All you need is to go to website below:
@@ -26,13 +29,15 @@ All you need is to go to website below:
 
 ## Additional Notes
 
- The Therapy Med application is now under construction, so while visiting the web site you may face with some bugs, long respond time, UI inconvience and other unexpected things. Hence, wait up for the upcoming updates! New major version will be released later, because of working on frontend and backend sections of the application.  
- 
- Feel free to contact to developer by links below:
-  - [Telegram](https://t.me/erkinov_wiz)
+The Therapy Med application is now under construction, so while visiting the web site you may face with some bugs, long respond time, UI inconvience and other unexpected things. Hence, wait up for the upcoming updates!
+
+This is major update that provides Alpha version. Alpha version was published only for testing purpose. The further Application development was suspended for a while due to certain reasons. New updates will come with both Frontend and Backend improvements!
+
+Feel free to contact to developer by links below:
+- [Telegram](https://t.me/erkinov_wiz)
 
 
 
 ## License
 
-[Licensed under MIT](https://choosealicense.com/licenses/mit/)
+[Licensed under MIT](https://github.com/webhire/therapymed/blob/main/LICENSE)
