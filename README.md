@@ -5,13 +5,14 @@ The application is totally online and anyone can access to it. The app is curren
 
 The actual app is in webapp directory.
 
-## What's new in version-0.1.0
+## What's new in version-0.1.1
 - The Aplha version was published
 
 - Major interface changes were made
 - Created new pages for selecting gender, body parts, issues and actual quiz
 - Finished Man's Head and Eyes body parts
 - Uzbek Language was selected as a main app language
+- Minor bug fixes were made
 
 ## Backgroud development info
 
