@@ -1,4 +1,4 @@
-*.css linguist-detectable=false
+
 * text=auto
 
 *.blade.php diff=html
