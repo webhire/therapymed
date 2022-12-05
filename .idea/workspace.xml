@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d4af38-4eaa-4914-afc3-ba681a08f8f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/therapymed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/therapymed.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/public/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/public/assets/img/main.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +139,7 @@
       <path value="$PROJECT_DIR$/webapp/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/webapp/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/webapp/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/webapp/vendor/livewire/livewire" />
     </include_path>
   </component>
   <component name="ProjectId" id="2DYybaPt3jRQw1kCecEk4myYd56" />
