@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 })->name('main');
 
-Route::namespace('\App\Http\Controllers\App')->prefix('app')->group(function () {
-    Route::get('/', \App\Http\Controllers\App\IndexController::class)->name('app.index');
+Route::namespace('App\Http\Livewire\App\Gender')->prefix('app')->group(function () {
+    Route::get('/', \App\Http\Livewire\App\Gender\Index::class)->name('app.index');
 });
 
 Route::namespace('\App\Http\Controllers\Issue')->prefix('man')->group(function () {
@@ -59,60 +59,23 @@ Route::namespace('\App\Http\Controllers\Issue')->prefix('incompleted')->group(fu
     Route::get('31', \App\Http\Controllers\Issue\Incompleted\IndexController::class)->name('man.issue-31');
 });
 
-Route::namespace('\App\Http\Controllers\Quiz\Man')->prefix('man')->group(function () {
-    Route::namespace('\App\Http\Controllers\Quiz\Man\Eyes')->prefix('eyes')->group(function () {
-        Route::namespace('\App\Http\Controllers\Quiz\Man\Eyes\Pain')->prefix('pain/quiz')->group(function () {
-            Route::get('/', \App\Http\Controllers\Quiz\Man\Eyes\Pain\IndexController::class)->name('man.quiz-3');
-            Route::post('/2', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'toSecondQuestion'])->name('man.eyes.pain.quiz.1.store');
-            Route::post('/3', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'secondQuestion'])->name('man.eyes.pain.quiz.2.store');
-            Route::post('/4', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'thirdQuestion'])->name('man.eyes.pain.quiz.3.store');
-            Route::post('/5', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'fourthQuestion'])->name('man.eyes.pain.quiz.4.store');
-            Route::post('/6', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'fifthQuestion'])->name('man.eyes.pain.quiz.5.store');
-            Route::post('/7', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'sixthQuestion'])->name('man.eyes.pain.quiz.6.store');
-            Route::post('/8', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'seventhQuestion'])->name('man.eyes.pain.quiz.7.store');
-            Route::post('/9', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'ninthQuestion'])->name('man.eyes.pain.quiz.9.store');
-            Route::post('/10', [\App\Http\Controllers\Quiz\Man\Eyes\Pain\QuizController::class, 'tenthQuestion'])->name('man.eyes.pain.quiz.10.store');
+Route::namespace('\App\Http\Livewire\App\Quiz')->group(function () {
+    Route::namespace('Man')->prefix('man')->group(function () {
+        Route::namespace('Eyes')->prefix('eyes')->group(function () {
+            Route::namespace('Pain')->prefix('pain')->group(function () {
+                Route::get('/', \App\Http\Livewire\App\Quiz\Man\Eyes\Pain\Index::class)->name('man.quiz-3');
+            });
+            Route::namespace('Sight')->prefix('sight')->group(function () {
+                Route::get('/', \App\Http\Livewire\App\Quiz\Man\Eyes\Sight\Index::class)->name('man.quiz-4');
+            });
         });
-
-        Route::namespace('\App\Http\Controllers\Quiz\Man\Eyes\Sight')->prefix('sight/quiz')->group(function () {
-            Route::get('/', \App\Http\Controllers\Quiz\Man\Eyes\Sight\IndexController::class)->name('man.quiz-4');
-            Route::post('/2', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'toSecondQuestion'])->name('man.eyes.sight.quiz.1.store');
-            Route::post('/3', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'secondQuestion'])->name('man.eyes.sight.quiz.2.store');
-            Route::post('/4', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'thirdQuestion'])->name('man.eyes.sight.quiz.3.store');
-            Route::post('/5', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'fourthQuestion'])->name('man.eyes.sight.quiz.4.store');
-            Route::post('/6', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'fifthQuestion'])->name('man.eyes.sight.quiz.5.store');
-            Route::post('/7', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'sixthQuestion'])->name('man.eyes.sight.quiz.6.store');
-            Route::post('/8', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'seventhQuestion'])->name('man.eyes.sight.quiz.7.store');
-            Route::post('/9', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'ninthQuestion'])->name('man.eyes.sight.quiz.9.store');
-            Route::post('/10', [\App\Http\Controllers\Quiz\Man\Eyes\Sight\QuizController::class, 'tenthQuestion'])->name('man.eyes.sight.quiz.10.store');
+        Route::namespace('Head')->prefix('head')->group(function () {
+            Route::namespace('Pain')->prefix('pain')->group(function () {
+                Route::get('/', \App\Http\Livewire\App\Quiz\Man\Head\Pain\Index::class)->name('man.quiz-1');
+            });
+            Route::namespace('Dizziness')->prefix('dizziness')->group(function () {
+                Route::get('/', \App\Http\Livewire\App\Quiz\Man\Head\Dizziness\Index::class)->name('man.quiz-2');
+            });
         });
-
     });
-    Route::namespace('\App\Http\Controllers\Quiz\Man\Head')->prefix('head')->group(function () {
-        Route::namespace('\App\Http\Controllers\Quiz\Man\Head\Pain')->prefix('pain/quiz')->group(function () {
-            Route::get('/', \App\Http\Controllers\Quiz\Man\Head\Pain\IndexController::class)->name('man.quiz-1');
-            Route::post('/2', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'toSecondQuestion'])->name('man.head.pain.quiz.1.store');
-            Route::post('/3', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'secondQuestion'])->name('man.head.pain.quiz.2.store');
-            Route::post('/4', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'thirdQuestion'])->name('man.head.pain.quiz.3.store');
-            Route::post('/5', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'fourthQuestion'])->name('man.head.pain.quiz.4.store');
-            Route::post('/6', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'fifthQuestion'])->name('man.head.pain.quiz.5.store');
-            Route::post('/7', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'sixthQuestion'])->name('man.head.pain.quiz.6.store');
-            Route::post('/8', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'seventhQuestion'])->name('man.head.pain.quiz.7.store');
-            Route::post('/9', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'eighthQuestion'])->name('man.head.pain.quiz.8.store');
-            Route::post('/10', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'ninthQuestion'])->name('man.head.pain.quiz.9.store');
-            Route::post('/11', [\App\Http\Controllers\Quiz\Man\Head\Pain\QuizController::class, 'tenthQuestion'])->name('man.head.pain.quiz.10.store');
-        });
-
-        Route::namespace('\App\Http\Controllers\Quiz\Man\Head\Dizziness')->prefix('dizziness/quiz')->group(function () {
-            Route::get('/', \App\Http\Controllers\Quiz\Man\Head\Dizziness\IndexController::class)->name('man.quiz-2');
-            Route::post('/2', [\App\Http\Controllers\Quiz\Man\Head\Dizziness\QuizController::class, 'toSecondQuestion'])->name('man.head.dizziness.quiz.1.store');
-            Route::post('/3', [\App\Http\Controllers\Quiz\Man\Head\Dizziness\QuizController::class, 'secondQuestion'])->name('man.head.dizziness.quiz.2.store');
-            Route::post('/4', [\App\Http\Controllers\Quiz\Man\Head\Dizziness\QuizController::class, 'thirdQuestion'])->name('man.head.dizziness.quiz.3.store');
-            Route::post('/5', [\App\Http\Controllers\Quiz\Man\Head\Dizziness\QuizController::class, 'fourthQuestion'])->name('man.head.dizziness.quiz.4.store');
-            Route::post('/6', [\App\Http\Controllers\Quiz\Man\Head\Dizziness\QuizController::class, 'fifthQuestion'])->name('man.head.dizziness.quiz.5.store');
-        });
-
-    });
-
 });
-

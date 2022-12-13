@@ -12,12 +12,10 @@
 
                 <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
                     @foreach($eye_issues as $issue)
-                        @if($issue->body_part_id == 2 and $issue->gender_id == 1)
                             <li class="nav-item">
                                 <a class="nav-link" href="#issue-{{ $issue->id }}" role="tab"
                                    data-bs-toggle="tab">{{ $issue->issue_uz }}</a>
                             </li>
-                        @endif
                     @endforeach
                 </ul>
 
@@ -28,8 +26,7 @@
                 <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
                     @foreach($eye_issues as $issue)
-                        @if($issue->body_part_id == 2 and $issue->gender_id == 1)
-                            <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="issue-{{ $issue->id }}">
+                            <div role="tabpanel" class="col-lg-9 tab-pane fade show" id="issue-{{ $issue->id }}">
                                 <div class="row schedule-item justify-content-center">
                                     <div class="col-md-10" style=text-align:center>
                                         <h4>{{ $issue->description_uz }}</h4>
@@ -37,7 +34,6 @@
                                     </div>
                                 </div>
                             </div>
-                        @endif
                     @endforeach
 
                 </div>

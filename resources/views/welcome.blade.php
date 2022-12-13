@@ -41,7 +41,7 @@
 <section id="hero">
 
     <div class="container">
-        <div class="row d-flex align-items-center"">
+        <div class="row d-flex align-items-center">
         <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
             <h1>Application under the Development</h1>
             <h2>Soon we will publish our first version of the web application.</h2>
@@ -50,9 +50,36 @@
             <img src="{{ asset('assets/img/hero-img.png') }}" class="img-fluid" alt="">
         </div>
     </div>
-    </div>
-
 </section><!-- End Hero -->
+
+<section id="features" class="features section-bg">
+    <div class="container">
+        <div class="section-title">
+            <h2 data-aos="fade-in" class="aos-init aos-animate">Try it Now!</h2>
+        </div>
+
+        <div class="row content">
+            <div class="col-md-5 aos-init aos-animate" data-aos="fade-right">
+                <img src="{{ asset('assets/img/features-1.svg') }}" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-7 pt-4 aos-init aos-animate" data-aos="fade-left">
+                <h3>Therapy Med - Alpha version is available now</h3>
+                <p class="fst-italic">
+                    We published our first Alpha version, so everyone can try and test it. But before, be aware of aspects list below:
+                </p>
+                <ul>
+                    <li><i class="bi bi-check-lg" style="color: darkgreen"></i> This is the first Alpha version.</li>
+                    <li><i class="bi bi-check-lg" style="color: darkgreen"></i> Application based on Uzbek language.</li>
+                    <li><i class="bi bi-x-lg" style="color: red"></i> Bugs are still expected</li>
+                </ul>
+                <a href="{{ route('app.index') }}" class="button custom-btn btn-7"><span>Try it!</span></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
@@ -68,13 +95,13 @@
 </footer><!-- End Footer -->
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="{{ 'assets/vendor/aos/aos.js' }}"></script>
+<script src="{{ 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' }}"></script>
+<script src="{{ 'assets/vendor/glightbox/js/glightbox.min.js' }}"></script>
+<script src="{{ 'assets/vendor/swiper/swiper-bundle.min.js' }}"></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 

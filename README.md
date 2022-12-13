@@ -1,5 +1,5 @@
 <h1 align="center"> Therapy Med </h1>
-<p align="center"><a href="https://github.com/webhire/therapymed" target="_blank"><img src="https://github.com/webhire/therapymed/blob/main/webapp/public/assets/img/main.png?raw=true" width="400"></a></p>
+<p align="center"><a href="https://github.com/webhire/therapymed" target="_blank"><img src="https://github.com/webhire/therapymed/blob/main/public/assets/img/main.png?raw=true" width="400"></a></p>
 
 <p align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/WebHire/therapymed?logo=github">
@@ -8,6 +8,8 @@
 <img alt="Contributors" src="https://img.shields.io/github/contributors/WebHire/therapymed">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WebHire/therapymed?label=Last%20Commit">
 </p>
+
+<p align="center"><img src="https://github.com/webhire/therapymed/blob/main/public/assets/img/logo.png?raw=true"></p>
 
 ## What's new in version - 0.2.1
 

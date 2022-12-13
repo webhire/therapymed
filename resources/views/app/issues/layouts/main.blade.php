@@ -28,7 +28,7 @@
 
 <body>
 
-<header>
+<header id="header">
     <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
@@ -39,13 +39,15 @@
             <ul>
                 <li><a class="nav-link scrollto active" href="{{ route('main') }}">Asosiy</a></li>
                 <li><a class="nav-link scrollto" href="https://t.me/erkinov_wiz" target="_blank">Aloqa</a></li>
-                <li><a class="nav-link scrollto" href="https://github.com/webhire/therapymed" target="_blank">GitHub</a></li>
+                <li><a class="nav-link scrollto" href="https://github.com/webhire/therapymed" target="_blank">GitHub</a>
+                </li>
                 <li><a class="getstarted scrollto" href="{{ route('app.index') }}">Jins tanlash</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
+
     </div>
-</header>
+</header><!-- End Header -->
 
 @yield('content')
 
