@@ -67,6 +67,9 @@
             <div class="credits">
                 Created by <a href="https://github.com/webhire">WebHire</a>
             </div>
+            <div class="text-center text-muted">
+                App version {{ env('APP_VERSION') }}
+            </div>
         </div>
     </footer><!-- End Footer -->
 

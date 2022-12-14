@@ -23,7 +23,7 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-
+    <livewire:styles />
 </head>
 
 <body>
@@ -93,6 +93,8 @@
         </div>
     </div>
 </footer><!-- End Footer -->
+
+<livewire:scripts />
 
 <!-- Vendor JS Files -->
 <script src="{{ 'assets/vendor/aos/aos.js' }}"></script>

@@ -61,11 +61,14 @@
     <footer id="footer">
         <div class="container footer-bottom clearfix">
             <div class="copyright">
-                &copy; Copyright <strong><span>Therapy Med</span></strong> {{ now()->year }}. All Rights Reserved.
-                Licensed under MIT.
+                &copy; Copyright <strong><span>Therapy Med</span></strong> {{ now()->year }}.
+                All Rights Reserved. Licensed under MIT.
             </div>
             <div class="credits">
                 Created by <a href="https://github.com/webhire">WebHire</a>
+            </div>
+            <div class="text-center text-muted">
+                App version {{ env('APP_VERSION') }}
             </div>
         </div>
     </footer><!-- End Footer -->

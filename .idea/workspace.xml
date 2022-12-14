@@ -1,143 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="90d4af38-4eaa-4914-afc3-ba681a08f8f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Issue/Man/Eyes/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Issue/Man/Eyes/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Issue/Man/Head/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Issue/Man/Head/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal10.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal11.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal12.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal13.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal14.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal15.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal16.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal17.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal18.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal19.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal20.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal21.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal22.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal23.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal24.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal25.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal26.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal27.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal28.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal29.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal30.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal31.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal32.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal33.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal34.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal35.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Answers/Modal9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/DeferLoad.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question10.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question10.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question2.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question3.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question4.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question5.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question6.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question7.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question8.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question9.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Pain/Question9.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/DeferLoad.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question10.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Eyes/Sight/Question9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Dizziness/DeferLoad.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Dizziness/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Dizziness/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Dizziness/Question2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Dizziness/Question3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Dizziness/Question4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Dizziness/Question5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/DeferLoad.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question10.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/App/Quiz/Man/Head/Pain/Question9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/issue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/issue/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/issue/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/issue/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app/issues/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app/issues/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app/issues/man/eyes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app/issues/man/eyes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/app/issues/man/head/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app/issues/man/head/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/man/eyes/pain/quiz.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/man/eyes/pain/quiz.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/man/eyes/sight/quiz.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/man/eyes/sight/quiz.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/man/head/dizziness/quiz.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/man/head/dizziness/quiz.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/man/head/pain/quiz.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/man/head/pain/quiz.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/layouts/main.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/1.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/10.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/2.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/3.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/4.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/5.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/6.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/7.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/8.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/pain/9.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/1.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/10.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/2.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/3.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/4.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/5.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/6.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/7.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/8.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_eyes/sight/9.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/dizziness/1.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/dizziness/2.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/dizziness/3.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/dizziness/4.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/dizziness/5.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/1.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/10.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/2.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/3.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/4.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/5.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/6.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/7.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/8.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/quiz/man_head/pain/9.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/app/quiz/man/eyes/pain/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/app/quiz/man/eyes/pain/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,9 +161,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "/Users/erkinov/GitHub/therapymed/resources/views/livewire/app",
+    "last_opened_file_path": "/Users/erkinov/GitHub/therapymed",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -321,6 +200,7 @@
       <workItem from="1661153875198" duration="999000" />
       <workItem from="1670414262239" duration="1039000" />
       <workItem from="1670446301081" duration="638000" />
+      <workItem from="1671029199954" duration="2565000" />
     </task>
     <servers />
   </component>
@@ -337,5 +217,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
